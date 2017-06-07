@@ -24,8 +24,15 @@ $(document).ready(function() {
             }
         });
     }
-    $('.getQuote').on('click', function() {
+    $('.getQuote').on('click', function(event) {
+    		event.preventDefault();
         getNewQuote();
+
+    $('.shareQuote').on('click', function(event) {
+    		event.preventDefault();
+    		window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote+'-'+author))}); 
+
+
     });
 });
 

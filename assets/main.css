@@ -18,5 +18,9 @@ p, {
 
 li {
 	display: inline;
+}
 
+
+.btn {
+	font-size: 10px;
 }
