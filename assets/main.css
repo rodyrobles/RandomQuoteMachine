@@ -1,4 +1,8 @@
-body,
+body {
+	background: url("rough.jpg");
+}
+
+
 h1,
 p, {
 	font-family:  Helvetica, Arial, sans-serif;
